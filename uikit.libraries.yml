@@ -1,0 +1,9 @@
+uikit-base:
+  version: VERSION
+  css:
+    theme:
+      uikit-2.27.2/css/uikit.css: {}
+  js:
+    uikit-2.27.2/js/uikit.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,23 @@
+name: uikit
+description: uikit theme
+type: theme
+base theme: stable
+core: 8.x
+version: VERSION
+
+regions:
+  header: Header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  breadcrumb: Breadcrumb
+  help: Help
+  hightlighted: Highlighted
+  content: Content
+  sidebar_first: Left sidebar
+  sidebar_second: Right Sidebar
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page Bottom
+
+libraries:
+  - uikit/uikit-base
