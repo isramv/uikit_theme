@@ -21,3 +21,4 @@ regions:
 
 libraries:
   - uikit/uikit-base
+  - uikit/uikit-custom

@@ -36,7 +36,11 @@
         <ul class="uk-list">
       {% endif %}
       {% for item in items %}
-        <li{{ item.attributes }}>
+        {% if item.in_active_trail == true %}
+          <li{{ item.attributes.addClass('uk-active') }}>
+        {% else %}
+          <li{{ item.attributes }}>
+        {% endif %}
           {{ link(item.title, item.url) }}
           {% if item.below %}
             {{ menus.menu_links(item.below, attributes, menu_level + 1) }}

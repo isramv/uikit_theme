@@ -7,3 +7,8 @@ uikit-base:
     uikit-2.27.2/js/uikit.js: {}
   dependencies:
     - core/jquery
+
+uikit-custom:
+  css:
+    theme:
+      css/styles.css: {}

@@ -14,5 +14,8 @@
  * @see template_preprocess_menu_local_task()
  */
 #}
-{{ dsm(link) }}
-<li{{ attributes }}>{{ link }}</li>
+{% if is_active == true %}
+  <li{{ attributes.addClass('uk-active') }}>{{ link }}</li>
+{% else %}
+  <li{{ attributes }}>{{ link }}</li>
+{% endif %}
