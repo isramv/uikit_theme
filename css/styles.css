@@ -1,3 +1,56 @@
 :not(pre) > code, :not(pre) > kbd, :not(pre) > samp {
-    white-space: pre;
-}
+  white-space: pre; }
+
+ul.uk-pagination li.uk-active a {
+  background: lightblue; }
+
+.frontpage-view .views-row.uk-grid {
+  margin-bottom: 2.5em; }
+
+.frontpage-view h2 {
+  margin-top: 1rem; }
+
+.frontpage-view .created.left {
+  color: #a5a5a5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  margin-top: 1.7rem; }
+
+.node--full .date-container {
+  margin-bottom: 1rem;
+  color: #a5a5a5; }
+
+html {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'Quicksand', sans-serif; }
+
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.5rem; }
+
+.uk-tab > li > a {
+  font-size: .8rem; }
+
+p,
+.uk-navbar-nav > li > a {
+  font-family: 'Quicksand', sans-serif; }
+
+.frontpage-view {
+  margin: .5rem 0; }
+
+#block-uikit-local-tasks {
+  margin: .5rem 0; }
+
+.image-container {
+  padding: 0 0 1rem 0;
+  text-align: center; }
+
+.uk-article-title {
+  margin: 1.5rem 0; }

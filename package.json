@@ -1,11 +1,30 @@
 {
   "name": "uikit",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Used to install gulp-sass",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0"
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isramv/uikit.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "materialize"
+  ],
+  "author": "Israel Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isramv/uikit/issues"
+  },
+  "homepage": "https://github.com/isramv/uikit#readme"
 }

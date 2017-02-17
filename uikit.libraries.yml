@@ -12,3 +12,8 @@ uikit-custom:
   css:
     theme:
       css/styles.css: {}
+
+google_fonts:
+  css:
+    theme:
+      https://fonts.googleapis.com/css?family=Cabin:700|Quicksand: { type: external, attributes: { async: true } }
