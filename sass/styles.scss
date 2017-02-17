@@ -1,6 +1,9 @@
 :not(pre) > code, :not(pre) > kbd, :not(pre) > samp {
   white-space: pre;
 }
+.uk-pagination > li > a {
+  font-size: .7rem;
+}
 ul.uk-pagination li.uk-active a {
   background: lightblue;
 }
@@ -15,13 +18,15 @@ ul.uk-pagination li.uk-active a {
     color: #a5a5a5;
     font-family: 'Quicksand', sans-serif;
     font-size: .8rem;
-    margin-top: 1.7rem;
+    margin-top: 1.2rem;
   }
 }
 .node--full {
   .date-container {
     margin-bottom: 1rem;
     color: #a5a5a5;
+    line-height: 1.2rem;
+    font-size: .9rem;
   }
 }
 
@@ -40,6 +45,13 @@ h5,
 h6 {
   font-family: 'Cabin', sans-serif;
   line-height: 1.5rem;
+  font-weight: bold;
+}
+a {
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 .uk-tab > li > a {
   font-size: .8rem;
@@ -47,6 +59,9 @@ h6 {
 p,
 .uk-navbar-nav > li > a {
   font-family: 'Quicksand', sans-serif;
+}
+p {
+  line-height: 1.4rem;
 }
 .frontpage-view {
   margin: .5rem 0;
@@ -59,5 +74,9 @@ p,
   text-align: center;
 }
 .uk-article-title {
+  margin: 1.5rem 0;
+  font-weight: bolder;
+}
+.uk-alert {
   margin: 1.5rem 0;
 }
