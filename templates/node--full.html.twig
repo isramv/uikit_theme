@@ -70,7 +70,7 @@
  *   in different view modes.
  */
 #}
-<article{{ attributes.addClass('uk-container').addClass('uk-container-center').addClass('node--full') }}>
+<article{{ attributes.addClass('node--full') }}>
   <div{{ content_attributes }}>
     {% if node.getTitle() %}
       <div>
@@ -83,7 +83,7 @@
       <div class="image-container uk-width-small-1-1 uk-width-medium-1-1">
         {{ content.field_image }}
       </div>
-      <div class="uk-width-small-1-1 uk-width-medium-2-10">
+      <div class="tags-container uk-width-small-1-1 uk-width-medium-2-10">
         {% if display_submitted %}
           {{ author_picture }}
           <div{{ author_attributes.addClass('date-container') }}>
@@ -91,9 +91,12 @@
             {{ metadata }}
           </div>
         {% endif %}
+        {{ content.field_tags }}
       </div>
       <div class="uk-width-small-1-1 uk-width-medium-7-10">
           {{ content.body }}
+          <hr class="uk-article-divider"/>
+          {{ content.field_disqus }}
       </div>
     </div>
   </div>
