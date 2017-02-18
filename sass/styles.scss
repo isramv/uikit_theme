@@ -89,6 +89,12 @@ b {
 .tag-list {
   margin-top: .4rem;
 }
-@media all and (max-width: 480px) {
-
+.node--type-article {
+  margin-bottom: 2rem;
+  .node__meta {
+    margin-bottom: 1rem;
+  }
+  .node__content {
+    margin-bottom: 1rem;
+  }
 }

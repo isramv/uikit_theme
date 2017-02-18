@@ -80,3 +80,10 @@ b {
 
 .tag-list {
   margin-top: .4rem; }
+
+.node--type-article {
+  margin-bottom: 2rem; }
+  .node--type-article .node__meta {
+    margin-bottom: 1rem; }
+  .node--type-article .node__content {
+    margin-bottom: 1rem; }
