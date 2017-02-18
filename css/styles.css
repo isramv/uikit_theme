@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
   font-family: 'Cabin', sans-serif;
-  line-height: 1.5rem;
+  line-height: 2.3rem;
   font-weight: bold; }
 
 a:hover {
@@ -87,3 +87,11 @@ b {
     margin-bottom: 1rem; }
   .node--type-article .node__content {
     margin-bottom: 1rem; }
+  .node--type-article .node__submitted {
+    color: #a5a5a5;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .8rem;
+    margin-top: 1.2rem; }
+
+.view-taxonomy-term {
+  margin: 2rem 0; }
