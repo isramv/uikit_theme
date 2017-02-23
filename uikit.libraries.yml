@@ -17,3 +17,11 @@ google_fonts:
   css:
     theme:
       https://fonts.googleapis.com/css?family=Cabin:400,500,700|Quicksand:400,500,700: { type: external, attributes: { async: true } }
+
+highlightjs:
+  css:
+    theme:
+      highlight/styles/atom-one-light.css: {}
+  js:
+    highlight/highlight.pack.js: {}
+    js/highlightCode.js: {}

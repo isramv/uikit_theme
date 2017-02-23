@@ -112,3 +112,10 @@ b {
 .view-taxonomy-term {
   margin: 2rem 0;
 }
+.node--full {
+  code {
+    background: #fafafa;
+    padding: .5rem;
+    font-size: .8rem;
+  }
+}

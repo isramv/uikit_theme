@@ -16,3 +16,4 @@ libraries:
   - uikit/uikit-base
   - uikit/uikit-custom
   - uikit/google_fonts
+  - uikit/highlightjs
